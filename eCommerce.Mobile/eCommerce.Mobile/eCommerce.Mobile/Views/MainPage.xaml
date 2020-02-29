@@ -7,7 +7,7 @@
              x:Class="eCommerce.Mobile.MainPage" NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="20,20,20,20">
             <!-- Place new controls here -->
             <Label Text="eCommerce App" />
             <Button x:Name="btnCategory" Text="Categories" Clicked="btnCategory_Clicked" />

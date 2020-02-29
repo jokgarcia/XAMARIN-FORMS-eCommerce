@@ -5287,24 +5287,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jok\\.nuget\\packages\\": {},
+    "C:\\Users\\IT\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xamarin-forms-template\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\eCommerce.Mobile.Android.csproj",
+      "projectUniqueName": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\eCommerce.Mobile.Android.csproj",
       "projectName": "eCommerce.Mobile.Android",
-      "projectPath": "C:\\xamarin-forms-template\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\eCommerce.Mobile.Android.csproj",
-      "packagesPath": "C:\\Users\\Jok\\.nuget\\packages\\",
-      "outputPath": "C:\\xamarin-forms-template\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\obj\\",
+      "projectPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\eCommerce.Mobile.Android.csproj",
+      "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
+      "outputPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5312,14 +5313,15 @@
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\xamarin-forms-template\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj": {
-              "projectPath": "C:\\xamarin-forms-template\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj"
+            "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj": {
+              "projectPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj"
             }
           }
         }

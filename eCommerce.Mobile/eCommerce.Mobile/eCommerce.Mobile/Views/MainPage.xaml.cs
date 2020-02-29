@@ -1,4 +1,5 @@
 ﻿using eCommerce.Mobile.View.Category;
+using eCommerce.Mobile.Views.Supplier;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -41,7 +42,7 @@ namespace eCommerce.Mobile
 
         private void btnSupplier_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new NavigationPage(new Suppliers()));
         }
 
         private void btnBrand_Clicked(object sender, EventArgs e)
@@ -51,7 +52,7 @@ namespace eCommerce.Mobile
 
         private void btnDelivery_Clicked(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

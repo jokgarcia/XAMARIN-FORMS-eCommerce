@@ -17,6 +17,7 @@ namespace eCommerce.Mobile.Data
         {
             _database = new SQLiteAsyncConnection(dbPath);
             _database.CreateTableAsync<Category>().Wait();
+            _database.CreateTableAsync<Supplier>().Wait();
         }
 
         /// <summary>
@@ -38,6 +39,16 @@ namespace eCommerce.Mobile.Data
             return _database.Table <Category > ().ToListAsync();
         }
 
-       
+
+        public Task<int> SaveSupplierAsync(Supplier supp)
+        {
+            return _database.InsertAsync(supp);
+        }
+
+        public Task<List<Supplier>> GetSupplierAsync()
+        {
+            return _database.Table<Supplier>().ToListAsync();
+        }
+
     }
 }

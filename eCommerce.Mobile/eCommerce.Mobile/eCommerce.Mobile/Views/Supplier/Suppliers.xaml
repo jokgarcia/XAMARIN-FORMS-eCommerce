@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="eCommerce.Mobile.Views.Supplier.Suppliers" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Add Supplier"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Name" />
+            <Entry x:Name="txtSuppName" Placeholder="Supplier Name" />
+
+            <Entry x:Name="txtAddress" Placeholder="Address" />
+
+            <Button x:Name="btnSaveSupplier" Text="Save" Clicked="btnSaveSupplier_Clicked" />
+
+
+            <Label Text="Suppliers"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding SupplierName}" Detail="{Binding SupplierAddress}">
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>
