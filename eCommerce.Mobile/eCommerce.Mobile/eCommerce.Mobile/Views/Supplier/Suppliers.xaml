@@ -14,6 +14,7 @@
             <Label Text="Name" />
             <Entry x:Name="txtSuppName" Placeholder="Supplier Name" />
 
+            <Label Text="Address" />
             <Entry x:Name="txtAddress" Placeholder="Address" />
 
             <Button x:Name="btnSaveSupplier" Text="Save" Clicked="btnSaveSupplier_Clicked" />
