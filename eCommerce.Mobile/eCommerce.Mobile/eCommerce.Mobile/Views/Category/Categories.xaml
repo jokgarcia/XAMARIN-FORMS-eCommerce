@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="eCommerce.Mobile.View.Category.Categories" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Add Category"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Name" />
+            <Entry x:Name="txtCatName" Placeholder="Category Name" />
+
+            <Label Text="Description" />
+            <Editor x:Name="txtCatDesc" Placeholder="Description" />
+
+            <Button x:Name="btnSaveCategory" Text="Save" Clicked="btnSaveCategory_Clicked" />
+
+            <Label Text="Categories"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding CategoryName}" Detail="{Binding CategoryDescription}">
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+            
+            <Button x:Name="btnMain" Text="Main Menu" Clicked="btnMain_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
