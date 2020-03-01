@@ -12,5 +12,7 @@ namespace eCommerce.Mobile.Models
         public string SupplierName { get; set; }
 
         public string SupplierAddress { get; set; }
+
+        public string SupplierContactNo { get; set; }
     }
 }

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="eCommerce.Mobile.Views.Supplier.Suppliers" NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="10,10,10,10">
             <Label Text="Add Supplier"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
@@ -17,17 +17,20 @@
             <Label Text="Address" />
             <Entry x:Name="txtAddress" Placeholder="Address" />
 
-            <Button x:Name="btnSaveSupplier" Text="Save" Clicked="btnSaveSupplier_Clicked" />
+            <Label Text="Contact No." />
+            <Entry x:Name="txtContactNo" Placeholder="Contact No." />
+            
+            <Button x:Name="btnSaveSupplier" Text="Save" Clicked="btnSaveSupplier_Clicked"  />
 
 
             <Label Text="Suppliers"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory">
+            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory" ItemSelected="listViewCategory_ItemSelected" ItemTapped="listViewCategory_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding SupplierName}" Detail="{Binding SupplierAddress}">
+                        <TextCell Text="{Binding SupplierName}" Detail="{Binding SupplierAddress}" >
                         </TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

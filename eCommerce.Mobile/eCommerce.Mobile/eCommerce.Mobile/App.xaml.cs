@@ -1,7 +1,9 @@
-﻿using eCommerce.Mobile.Data;
+﻿using Android.Content;
+using eCommerce.Mobile.Data;
 using System;
 using System.IO;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace eCommerce.Mobile
@@ -16,7 +18,12 @@ namespace eCommerce.Mobile
             {
                 if (database == null)
                 {
-                    database = new ECommerceDataLayer(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ecommerce.db3"));
+                    Context context = Android.App.Application.Context;
+                    var filePath = context.GetExternalFilesDir("");
+
+                    database = new ECommerceDataLayer(Path.Combine(filePath.ToString(), "ecommerce.db3"));
+
+                    //database = new ECommerceDataLayer(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ecommerce.db3"));
                 }
                 return database;
             }
@@ -39,5 +46,6 @@ namespace eCommerce.Mobile
         protected override void OnResume()
         {
         }
+
     }
 }
