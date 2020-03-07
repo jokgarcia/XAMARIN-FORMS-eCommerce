@@ -698,26 +698,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IT\\.nuget\\packages\\": {},
+    "C:\\Users\\Jok\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj",
+      "projectUniqueName": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj",
       "projectName": "eCommerce.Mobile",
-      "projectPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj",
-      "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-      "outputPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\obj\\",
+      "projectPath": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj",
+      "packagesPath": "C:\\Users\\Jok\\.nuget\\packages\\",
+      "outputPath": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Users\\Jok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -725,7 +724,6 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

@@ -46,5 +46,11 @@ namespace eCommerce.Mobile.View.Category
         {
             Navigation.PushAsync(new NavigationPage(new MainPage()));
         }
+
+        private void listViewCategory_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var category = e.Item as Models.Category;
+            Navigation.PushAsync(new NavigationPage(new CategoryDetails(category.CategoryName,category.CategoryDescription)));
+        }
     }
 }

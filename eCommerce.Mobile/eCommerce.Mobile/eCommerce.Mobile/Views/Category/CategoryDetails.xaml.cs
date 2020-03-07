@@ -12,9 +12,27 @@ namespace eCommerce.Mobile.View.Category
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CategoryDetails : ContentPage
     {
-        public CategoryDetails()
+        public CategoryDetails(string CatName,string CatDesc)
         {
             InitializeComponent();
+            //Clear Entries
+            txtCatName.Text = "";
+            txtCatDesc.Text = "";
+
+            txtCatName.Text = CatName;
+            txtCatDesc.Text = CatDesc;
+        }
+
+        async void btnUpdateCat_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(txtCatName.Text))
+            {
+                await App.Database.UpdateCategoryAsync(new Models.Category
+                {
+                    CategoryName = txtCatName.Text,
+                    CategoryDescription = txtCatDesc.Text
+                });
+            }
         }
     }
 }

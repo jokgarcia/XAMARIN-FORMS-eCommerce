@@ -23,7 +23,7 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory">
+            <ListView VerticalOptions="EndAndExpand" x:Name="listViewCategory" ItemTapped="listViewCategory_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding CategoryName}" Detail="{Binding CategoryDescription}">

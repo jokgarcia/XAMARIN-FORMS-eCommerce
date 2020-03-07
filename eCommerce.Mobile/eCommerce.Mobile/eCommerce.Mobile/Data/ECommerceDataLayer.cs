@@ -31,6 +31,16 @@ namespace eCommerce.Mobile.Data
         }
 
         /// <summary>
+        /// CREATE
+        /// </summary>
+        /// <param name="category">Category Model</param>
+        /// <returns>Next Id Number</returns>
+        public Task<int> UpdateCategoryAsync(Category category)
+        {
+            return _database.UpdateAsync(category);
+        }
+
+        /// <summary>
         /// RETRIEVE
         /// </summary>
         /// <returns></returns>

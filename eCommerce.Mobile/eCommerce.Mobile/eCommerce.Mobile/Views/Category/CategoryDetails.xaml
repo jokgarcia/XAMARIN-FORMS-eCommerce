@@ -7,9 +7,11 @@
              x:Class="eCommerce.Mobile.View.Category.CategoryDetails">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Category Name" />
+            <Entry x:Name="txtCatName" Text="{Binding CategoryName}" />
+            <Label Text="Description" />
+            <Entry x:Name="txtCatDesc" Text="{Binding CategoryDescription}" />
+            <Button x:Name="btnUpdateCat" Clicked="btnUpdateCat_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

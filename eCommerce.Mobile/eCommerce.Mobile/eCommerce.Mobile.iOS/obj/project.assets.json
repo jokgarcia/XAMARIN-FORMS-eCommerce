@@ -5852,25 +5852,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IT\\.nuget\\packages\\": {},
+    "C:\\Users\\Jok\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\eCommerce.Mobile.iOS.csproj",
+      "projectUniqueName": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\eCommerce.Mobile.iOS.csproj",
       "projectName": "eCommerce.Mobile.iOS",
-      "projectPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\eCommerce.Mobile.iOS.csproj",
-      "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-      "outputPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\obj\\",
+      "projectPath": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\eCommerce.Mobile.iOS.csproj",
+      "packagesPath": "C:\\Users\\Jok\\.nuget\\packages\\",
+      "outputPath": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Users\\Jok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5878,15 +5877,14 @@
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj": {
-              "projectPath": "D:\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj"
+            "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj": {
+              "projectPath": "C:\\POC\\xamarin.forms\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile\\eCommerce.Mobile.csproj"
             }
           }
         }
