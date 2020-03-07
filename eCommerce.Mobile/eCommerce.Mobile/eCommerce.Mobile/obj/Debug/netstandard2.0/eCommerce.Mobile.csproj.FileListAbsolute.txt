@@ -70,3 +70,7 @@ C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debu
 C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.dll
 C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\ref\eCommerce.Mobile.dll
 C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.pdb
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\eCommerce.Mobile.deps.json
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\eCommerce.Mobile.dll
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\ref\eCommerce.Mobile.dll
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\eCommerce.Mobile.pdb
