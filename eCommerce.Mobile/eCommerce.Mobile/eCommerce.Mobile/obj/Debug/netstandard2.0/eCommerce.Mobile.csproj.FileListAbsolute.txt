@@ -56,3 +56,17 @@ D:\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\ne
 D:\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\Mono.Android.pdb
 D:\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\bin\Debug\netstandard2.0\Mono.Android.xml
 D:\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.csproj.CopyComplete
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.csprojAssemblyReference.cache
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Brand\Brands.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Category\Categories.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Category\CategoryDetails.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Customer\CustomerDetails.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Customer\Customers.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\Views\Supplier\Suppliers.xaml.g.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.AssemblyInfoInputs.cache
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.AssemblyInfo.cs
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.dll
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\ref\eCommerce.Mobile.dll
+C:\POC\xamarin.forms\eCommerce.Mobile\eCommerce.Mobile\eCommerce.Mobile\obj\Debug\netstandard2.0\eCommerce.Mobile.pdb

@@ -92,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eCommerce.Mobile\eCommerce.Mobile.csproj">
-      <Project>{35471E82-0E72-4322-9EFD-E6AEDF633860}</Project>
+      <Project>{4a7f252c-6df1-419f-be72-677d0060e571}</Project>
       <Name>eCommerce.Mobile</Name>
     </ProjectReference>
   </ItemGroup>
